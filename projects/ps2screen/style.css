@@ -1,0 +1,11 @@
+body{
+    background-color: hsla(0, 0%, 0%, 0.9);
+}
+.ps2-shinydot{
+    color: rgba(240, 255, 255, 0.153);
+    font-size: 25px;
+    text-shadow: 0px 0px 7px hsl(0, 0%, 100%);
+}
+@keyframes backgrounddot-1{
+    
+}
