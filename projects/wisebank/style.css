@@ -1,0 +1,140 @@
+body{
+    background-color: rgba(19, 19, 19, 0.877);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pagetitle{
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 5px hsl(0, 0%, 100%);
+}
+#pagetitle h1{
+    height: 100px;
+    border-radius: 15px;
+    margin: 0px;
+}
+#pagetitle a{
+    text-decoration: none;
+    color: black;
+}
+#pagetitle p{
+    margin: 0px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+#loginbox{
+    font-size: 20px;
+    width: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsla(0, 0%, 13%, 0.893);
+    border: 2px solid hsla(240, 40%, 55%, 0.973);
+    border-radius: 10px;
+    text-align: center;
+    color: rgba(240, 255, 255, 0.806);
+}
+#loginbox:hover{
+    background-color: hsla(240, 1%, 14%, 0.892);
+}
+#clientinfo button{
+    background-color: rgba(35, 94, 197, 0.958);
+    color: white;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+#clientinfo button:hover{
+    cursor: pointer;
+}
+#loginbox a:not(:hover){
+    color: hsla(231, 69%, 60%, 0.721);
+}
+.infobox{
+    width: 350px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: rgb(44, 45, 45);
+    color: azure;
+}
+#clientinfo{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#optandpaswdreset label{
+    padding-right: 30px;
+}
+#extra{
+    display: inline-flex;
+    font-size: 18px;
+}
+footer{
+    height: 81px;
+    margin-top: 195px;
+    display: flex;
+    justify-content: flex-end;
+}
+#footerinfo{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content:left;
+    justify-self: flex-end;
+    align-self: flex-end;
+    align-items: flex-start;
+    background-color: rgb(33, 33, 33);
+    color: beige;
+    width: 100vw;
+    height: 80px;
+    margin-top: 1px;
+}
+#brand{
+    height: 78px;
+    margin-inline: 10px;
+}
+#brand h4{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+#brand a{
+    color: hsl(180, 100%, 97%);
+    text-decoration: none;
+}
+#brand p{
+    margin-block: 5px;
+    font-size: 13px;
+}
+#dev{
+    margin-left: 56vw;
+}
+.footercontainer{
+    height: 78px;
+    margin-inline: 10px;
+}
+.footercontainer h5{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.footercontainer p{
+    margin-block: 5px;
+    text-decoration: none;
+}
+.footercontainer p a{
+    color: hsl(0, 9%, 72%);
+    text-decoration: none;
+}
+.footercontainer p a:hover{
+    color: hsl(180, 100%, 97%);
+    text-decoration: underline;
+}
