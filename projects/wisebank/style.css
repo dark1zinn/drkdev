@@ -23,6 +23,8 @@ body{
     height: 100px;
     border-radius: 15px;
     margin: 0px;
+ /*   animation-name: move-down;
+    animation-duration: 2s; */
 }
 #pagetitle a{
     text-decoration: none;
@@ -32,6 +34,8 @@ body{
     margin: 0px;
     font-size: 30px;
     border-radius: 15px;
+  /*  animation-name: fade-in;
+    animation-duration: 5s;  */
 }
 #loginbox{
     font-size: 20px;
@@ -44,9 +48,14 @@ body{
     border-radius: 10px;
     text-align: center;
     color: rgba(240, 255, 255, 0.806);
+ /*   animation-name: fade-in-move-up;
+    animation-duration: 4s;
+    animation-delay: 3s;  */
 }
 #loginbox:hover{
     background-color: hsla(240, 1%, 14%, 0.892);
+  /*  animation-name: pop-out;
+    animation-duration: 1s;  */
 }
 #clientinfo button{
     background-color: rgba(35, 94, 197, 0.958);
@@ -84,6 +93,9 @@ footer{
     margin-top: 195px;
     display: flex;
     justify-content: flex-end;
+ /*   animation-name: fade-in-move-up;
+    animation-delay: 2s;
+    animation-duration: 3s;  */
 }
 #footerinfo{
     display: inline-flex;
@@ -137,4 +149,16 @@ footer{
 .footercontainer p a:hover{
     color: hsl(180, 100%, 97%);
     text-decoration: underline;
+}
+@keyframes pop-out{
+    50%{transform: scale(1.1, 1.1);}
+}
+@keyframes move-down{
+    from{transform: translateY(-100px);}
+}
+@keyframes fade-in-move-up{
+    from{transform: translateY(100px); opacity: 0; visibility: visible;}
+}
+@keyframes fade-in{
+    from{opacity: 0%;}
 }
