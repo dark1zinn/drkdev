@@ -21,10 +21,10 @@ body{
     font-size: 70px;
 }
 #headernav{
-    width: 600px;
+    width: 400px;
     padding-inline: 20px;
     padding-block: 10px;
-    margin-left: 150px;
+    margin-left: 250px;
     font-size: 25px;
     display: inline-flex;
     align-items:center;
