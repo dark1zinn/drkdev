@@ -19,19 +19,17 @@ body{
     text-decoration: none;
     color: azure;
     font-size: 70px;
+    text-shadow: 3px 3px 5px hsl(130, 86%, 37%);
 }
 #headernav{
-    width: 600px;
+    width: 400px;
     padding-inline: 20px;
     padding-block: 10px;
-    margin-left: 150px;
+    margin-left: 250px;
     font-size: 25px;
     display: inline-flex;
     align-items:center;
     justify-content: space-between;
-}
-#headernavigation-home{
-    text-shadow: 3px 3px 5px hsl(130, 86%, 37%);
 }
 .headernavopt a{
     color: azure;
@@ -42,7 +40,7 @@ body{
     text-shadow: 3px 3px 5px hsl(266, 71%, 41%);
     text-decoration: underline;
 }
-#bodycontent{
+#content{
     width: 100vw;
     display: inline-flex;
     flex-direction: column;
@@ -50,14 +48,14 @@ body{
     justify-content: center;
 
 }
-#bodycontent a{
+#content a{
     color: hsl(213, 81%, 46%);
 }
-.contentonbody{
+.contentbody{
     color: hsl(180, 100%, 97%);
     font-size: 30px;
     margin-top: 30px;
 }
-#content1{
+#content-2{
     width: 870px;
 }
