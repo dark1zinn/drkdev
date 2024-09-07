@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://www.myfarm.com.br/wp-content/uploads/2023/06/847855.jpg);
+    border-image-width: 50%;
+    background-color: hsl(180, 3%, 14%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+#logincontainer{
+    text-align: center;
+    border: 3px solid hsla(180, 52%, 40%, 0.527);
+    border-radius: 5px;
+    box-shadow: -3px 3px 5px hsla(0, 0%, 0%, 0.767);
+    padding: 10px;
+    background-color: hsla(180, 8%, 75%, 0.363);
+    display: flex;
+    flex-direction: column;
+}
+#logincontainer p{
+    display: none;
+    padding: 2px;
+    background-color: hsla(0, 100%, 52%, 0.425);
+    border-left: 4px solid hsl(0, 100%, 50%);
+}
