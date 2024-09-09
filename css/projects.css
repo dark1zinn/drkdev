@@ -36,9 +36,10 @@ body{
 .headernavopt a{
     color: azure;
     text-decoration: none;
+    transition: all 0.3s;
 }
 .headernavopt:hover{
-    font-size: 28px;
+    font-size: 35px;
     text-shadow: 3px 3px 5px hsl(266, 71%, 41%);
     text-decoration: underline;
 }
