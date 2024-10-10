@@ -1,0 +1,35 @@
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+
+  animation-name: fadein;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+
+  padding-inline: 5px;
+}
+
+h3 {
+  animation-name: fadein;
+  animation-timing-function: ease-in;
+  animation-duration: 4.3s;
+
+  padding-inline: 5px;
+}
+
+@keyframes fadein {
+  0%{ opacity: 0;};
+  100%{ opacity: 100; };
+}
+
+
+span {
+  margin-inline: 10px;
+  margin-bottom: 15px;
+
+  animation-name: fadein;
+  animation-timing-function: ease-in;
+  animation-duration: 5.4s;
+}
